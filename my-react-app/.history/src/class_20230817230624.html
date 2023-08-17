@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="carName"></p>
+        
+        <script>
+            class Car {
+                constructor(name){
+                    this.name = name;
+                }
+            }
+
+            const mycar = new Car("Ford");
+            document.getElementById("carName").innerText = `Car Name: ${mycar.name}`;
+        </script>
+    </body>
+</html>

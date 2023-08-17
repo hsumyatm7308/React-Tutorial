@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="carName"></p>
+        
+        <script>
+            class Car {
+                constructor(name){
+                    this.brand = name;
+                }
+
+                present(){
+                    return 'I have a ' + this.brand;
+                }
+            }
+
+    
+
+            class Model extends Car {
+                constructor (model, year){
+                    super('Model'); //call the parent constructor first 
+                }
+            }
+
+            const mycar = new Car("Ford");
+            document.getElementById("carName").innerText = `Car Name: ${mycar.present()}`;
+
+            const mymodel = new Model();
+        </script>
+    </body>
+</html>

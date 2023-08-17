@@ -1,0 +1,8 @@
+ES6 => ECMAScript V6
+
+=>Class 
+
+like a function. just use "class" keyword  instead of "function".
+
+
+c

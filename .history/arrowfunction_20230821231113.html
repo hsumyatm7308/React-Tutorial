@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrow function</title>
+</head>
+
+<h1>Arrow Function</h1>
+
+<p>The <strong>this</strong> keyword represents the Header object.</p>
+
+<button id="btn">Click Me!</button>
+
+<p><strong>this</strong> represents:</p>
+
+<p id="demo"></p>
+
+<body>
+
+    <script type="text/javascript">
+
+        //regular function 
+        hello = function (val) {
+            return `Hello World. I'm ${val}`;
+        }
+        console.log(hello("self-leaner"))
+
+        //arrow function 
+        hello = (val) => {
+            return `Hello World. I'm ${val}`;
+
+        }
+
+        console.log(hello("arrow function"));
+
+        hello = (val) => "Hello. I'm shorthand of " + val;
+        console.log(hello('arrow function'));
+
+
+        class Header {
+            constructor() {
+                this.color = "Red";
+            }
+
+            //Arrow functin 
+            chagecolor = () => {
+                document.getElementById("demo").innerHTML += this;
+            }
+        }
+
+       const header = new Header();
+
+        window.addEventListener("load",header.chagecolor)
+        document.getElementById("btn").addEventListener("click", myheader.chagecolor);
+
+    </script>
+</body>
+
+</html>

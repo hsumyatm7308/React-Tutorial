@@ -17,7 +17,7 @@ const arrymap = myarray.map((item) => {
 
     // return <p>{item}</p>
     return (
-        <p>{item + " fruits"}</p>
+        <p>{item}</p>
     )
     
 

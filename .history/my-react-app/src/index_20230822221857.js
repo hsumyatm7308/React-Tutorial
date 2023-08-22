@@ -11,16 +11,11 @@ import ReactDOM from "react-dom";
 // ReactDOM.render(<App />, document.getElementById("root"));
 
 
-const myarray = ['apple', 'orange', 'water melon'];
+const myarray = ['apple','orange','water melon'];
 
-const arrymap = myarray.map((item) => {
+const arrymap = myarray.map((item)=>{
 
-    // return <p>{item}</p>
-    return (
-        <p>{item + " fruits"}</p>
-    )
+    <p>{item}</p>
     
-
 });
 
-ReactDOM.render(arrymap, document.querySelector('#root'));

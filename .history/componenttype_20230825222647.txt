@@ -1,0 +1,11 @@
+
+ components summary 
+   - components describe a part of the user interface 
+   -  they are re-usable and can be nested inside other components
+   
+   =>Component Types 
+ 
+ (i) Stateless Functional Component 
+ (ii) Stateful Class Component 
+
+

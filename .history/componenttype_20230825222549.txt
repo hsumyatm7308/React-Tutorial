@@ -1,0 +1,8 @@
+=>Component Types 
+ 
+ (i) Stateless Functional Component 
+ (ii) Stateful Class Component 
+
+
+ components summary 
+ 

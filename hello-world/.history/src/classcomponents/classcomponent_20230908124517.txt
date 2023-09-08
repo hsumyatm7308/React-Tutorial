@@ -1,0 +1,4 @@
+=>Class Component 
+ basically ES6 class component   similar to a functional component 
+
+ 
